@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chăm Sóc Xe - Dịch Vụ Chăm Sóc Ô Tô & Xe Cộ Chuyên Nghiệp</title>
+    <meta name="description" content="Trung tâm chăm sóc, bảo dưỡng và detailing ô tô, xe cộ cao cấp tiêu chuẩn quốc tế. Rửa xe chuyên sâu, phủ ceramic, đánh bóng, dán phim PPF.">
+
+    <!-- Google Fonts (Be Vietnam Pro) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Animate.css Library (Theo yêu cầu đề thi) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- File CSS chính -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== HEADER & NAVIGATION (SEMANTIC HTML5) ==================== -->
+    <header class="site-header" id="header">
+        <div class="container header-wrap">
+            <a href="#home" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-car-side"></i></span>
+                <span class="logo-text">CHĂM SÓC <strong>XE</strong></span>
+            </a>
+
+            <!-- Checkbox ẩn điều khiển Menu trên Mobile thuần CSS 100% không dùng JS -->
+            <input type="checkbox" id="menuToggle" class="menu-toggle-checkbox">
+
+            <nav class="navbar" id="navbar" aria-label="Điều hướng chính">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Trang chủ</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Giới thiệu</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Dịch vụ</a></li>
+                    <li class="nav-item"><a href="#process" class="nav-link">Quy trình</a></li>
+                    <li class="nav-item"><a href="#pricing" class="nav-link">Bảng giá</a></li>
+                    <li class="nav-item"><a href="#testimonials" class="nav-link">Đánh giá</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Liên hệ</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#booking" class="btn btn-primary header-cta">
+                    <i class="fa-regular fa-calendar-check"></i> Đặt lịch ngay
+                </a>
+                <label for="menuToggle" class="mobile-toggle" aria-label="Mở menu di động">
+                    <i class="fa-solid fa-bars icon-open"></i>
+                    <i class="fa-solid fa-xmark icon-close"></i>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== MAIN CONTENT (SEMANTIC HTML5) ==================== -->
+    <main>
+
+        <!-- 1. HERO SECTION -->
+        <section class="hero-section" id="home">
+            <div class="hero-overlay"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge hero-badge animate__animated animate__fadeInDown">
+                        <i class="fa-solid fa-shield-halved"></i> Trung Tâm Chăm Sóc Xe Hơi Cao Cấp
+                    </span>
+                    <h1 class="hero-title animate__animated animate__fadeInLeft">
+                        Dịch Vụ Chăm Sóc Ô Tô & Xe Cộ Đẳng Cấp Toàn Diện
+                    </h1>
+                    <p class="hero-desc animate__animated animate__fadeInLeft animate__delay-1s">
+                        Nâng tầm diện mạo và bảo vệ xế yêu của bạn với công nghệ Detailing chuẩn Châu Âu, trang thiết bị tối tân cùng đội ngũ chuyên gia giàu kinh nghiệm.
+                    </p>
+                    <div class="hero-buttons animate__animated animate__fadeInUp animate__delay-1s">
+                        <a href="#booking" class="btn btn-primary btn-lg">
+                            <i class="fa-solid fa-calendar-plus"></i> Đặt Lịch Bảo Dưỡng
+                        </a>
+                        <a href="#services" class="btn btn-outline btn-lg">
+                            <i class="fa-solid fa-layer-group"></i> Xem Dịch Vụ
+                        </a>
+                    </div>
+                    <div class="hero-stats animate__animated animate__fadeInUp animate__delay-2s">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Năm kinh nghiệm</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">15K+</span>
+                            <span class="stat-label">Khách hàng tin tưởng</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">99.8%</span>
+                            <span class="stat-label">Đánh giá hài lòng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT SECTION -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="section-title-wrap">
+                    <span class="section-subtitle">Về chúng tôi</span>
+                    <h2 class="section-title">Cam Kết Chất Lượng Đỉnh Cao Cho Từng Chi Tiết Xe</h2>
+                    <p class="section-desc">Chúng tôi mang lại giải pháp làm đẹp, phục hồi và bảo vệ xe toàn diện bằng sự tỉ mỉ và tận tâm nhất.</p>
+                </div>
+
+                <div class="about-grid">
+                    <article class="about-feature-card">
+                        <div class="feature-icon-box">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <h3 class="feature-title">Chuẩn Quốc Tế</h3>
+                        <p class="feature-desc">Ứng dụng 100% dung dịch chuyên dụng nhập khẩu chính hãng từ Đức, Mỹ, Nhật Bản an toàn tuyệt đối cho bề mặt xe.</p>
+                    </article>
+
+                    <article class="about-feature-card">
+                        <div class="feature-icon-box">
+                            <i class="fa-solid fa-user-gear"></i>
+                        </div>
+                        <h3 class="feature-title">Kỹ Thuật Viên Chuyên Sâu</h3>
+                        <p class="feature-desc">Đội ngũ kỹ thuật viên được đào tạo bài bản theo quy trình Detailing chuyên nghiệp với hơn 10 năm kinh nghiệm.</p>
+                    </article>
+
+                    <article class="about-feature-card">
+                        <div class="feature-icon-box">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <h3 class="feature-title">Công Nghệ Tối Tân</h3>
+                        <p class="feature-desc">Hệ thống phòng phủ Ceramic kín bụi nhiệt độ chuẩn, máy phun hơi nước nóng diệt khuẩn và máy chà sơn lệch tâm cao cấp.</p>
+                    </article>
+
+                    <article class="about-feature-card">
+                        <div class="feature-icon-box">
+                            <i class="fa-solid fa-handshake-angle"></i>
+                        </div>
+                        <h3 class="feature-title">Bảo Hành Dài Hạn</h3>
+                        <p class="feature-desc">Chính sách bảo hành rõ ràng, kiểm tra định kỳ miễn phí giúp bạn hoàn toàn an tâm trong suốt quá trình sử dụng xe.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SERVICES SECTION -->
+        <section class="services-section" id="services">
+            <div class="container">
+                <div class="section-title-wrap text-center">
+                    <span class="section-subtitle">Dịch vụ cốt lõi</span>
+                    <h2 class="section-title">Giải Pháp Chăm Sóc Toàn Diện Cho Xế Cưng</h2>
+                    <p class="section-desc">Từ những bước vệ sinh cơ bản đến những kỹ thuật phục hồi & bảo vệ ngoại thất đỉnh cao.</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <article class="service-card">
+                        <div class="service-img-wrap">
+                            <img src="assets/images/service-wash.jpg" alt="Rửa xe Detailing chuyên sâu" loading="lazy">
+                            <span class="service-badge">Phổ biến</span>
+                        </div>
+                        <div class="service-body">
+                            <div class="service-icon"><i class="fa-solid fa-soap"></i></div>
+                            <h3 class="service-name">Rửa Xe & Vệ Sinh Chi Tiết</h3>
+                            <p class="service-info">Quy trình rửa xe 3 xô tiêu chuẩn quốc tế, loại bỏ bụi sắt, nhựa đường, làm sạch kẽ hở và dưỡng lốp bóng đẹp.</p>
+                            <ul class="service-points">
+                                <li><i class="fa-solid fa-circle-check"></i> Sử dụng bọt tuyết trung tính pH=7</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Vệ sinh hốc bánh, mâm xe tỉ mỉ</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Khăn Microfiber sợi mịn chống xước</li>
+                            </ul>
+                            <div class="service-footer">
+                                <span class="service-price">Từ 250.000đ</span>
+                                <a href="#booking" class="service-link">Đặt dịch vụ <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Service 2 -->
+                    <article class="service-card">
+                        <div class="service-img-wrap">
+                            <img src="assets/images/service-ceramic.jpg" alt="Phủ Ceramic cao cấp" loading="lazy">
+                            <span class="service-badge badge-hot">Cao cấp</span>
+                        </div>
+                        <div class="service-body">
+                            <div class="service-icon"><i class="fa-solid fa-gem"></i></div>
+                            <h3 class="service-name">Phủ Ceramic & Graphene 9H+</h3>
+                            <p class="service-info">Tạo lớp khiên bảo vệ sơn xe chống tia UV, mưa axit, hạn chế xước dăm và tạo hiệu ứng lá sen kỵ nước siêu bóng.</p>
+                            <ul class="service-points">
+                                <li><i class="fa-solid fa-circle-check"></i> Độ cứng bảo vệ 9H+ tiêu chuẩn Đức</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Tăng độ sâu và độ bóng gương cho sơn</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Bảo hành chính hãng lên đến 3 năm</li>
+                            </ul>
+                            <div class="service-footer">
+                                <span class="service-price">Từ 5.500.000đ</span>
+                                <a href="#booking" class="service-link">Đặt dịch vụ <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Service 3 -->
+                    <article class="service-card">
+                        <div class="service-img-wrap">
+                            <img src="assets/images/service-polish.jpg" alt="Đánh bóng hiệu chỉnh sơn xe" loading="lazy">
+                        </div>
+                        <div class="service-body">
+                            <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                            <h3 class="service-name">Đánh Bóng & Hiệu Chỉnh Sơn</h3>
+                            <p class="service-info">Khắc phục 95% vết xước quầng xoáy, vết ố sơn, đốm nước cứng, phục hồi độ trong trẻo và nguyên bản của màu sơn xe.</p>
+                            <ul class="service-points">
+                                <li><i class="fa-solid fa-circle-check"></i> Đo độ dày sơn bằng thiết bị siêu âm</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Hiệu chỉnh 3 bước bằng máy Rupes</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Không làm mòn lớp sơn bóng zin</li>
+                            </ul>
+                            <div class="service-footer">
+                                <span class="service-price">Từ 2.200.000đ</span>
+                                <a href="#booking" class="service-link">Đặt dịch vụ <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Service 4 -->
+                    <article class="service-card">
+                        <div class="service-img-wrap">
+                            <img src="assets/images/service-interior.jpg" alt="Vệ sinh nội thất ô tô" loading="lazy">
+                        </div>
+                        <div class="service-body">
+                            <div class="service-icon"><i class="fa-solid fa-spray-can-sparkles"></i></div>
+                            <h3 class="service-name">Vệ Sinh Nội Thất Chuyên Sâu</h3>
+                            <p class="service-info">Giặt sạch toàn bộ ghế da/nỉ, taplo, trần xe, thảm sàn bằng hơi nước nóng diệt khuẩn 99.9% và khử mùi Ozone triệt để.</p>
+                            <ul class="service-points">
+                                <li><i class="fa-solid fa-circle-check"></i> Dưỡng mềm và bảo vệ da cao cấp</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Khử sạch mùi ẩm mốc, thuốc lá</li>
+                                <li><i class="fa-solid fa-circle-check"></i> An toàn tuyệt đối cho sức khỏe</li>
+                            </ul>
+                            <div class="service-footer">
+                                <span class="service-price">Từ 1.200.000đ</span>
+                                <a href="#booking" class="service-link">Đặt dịch vụ <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Service 5 -->
+                    <article class="service-card">
+                        <div class="service-img-wrap">
+                            <img src="assets/images/service-engine.jpg" alt="Vệ sinh khoang máy ô tô" loading="lazy">
+                        </div>
+                        <div class="service-body">
+                            <div class="service-icon"><i class="fa-solid fa-gears"></i></div>
+                            <h3 class="service-name">Vệ Sinh & Bảo Dưỡng Khoang Máy</h3>
+                            <p class="service-info">Làm sạch dầu mỡ bụi bẩn trong khoang máy bằng công nghệ hơi nước nóng Optima Steamer, xịt dưỡng chống chuột và chống oxi hóa.</p>
+                            <ul class="service-points">
+                                <li><i class="fa-solid fa-circle-check"></i> Che chắn kỹ các cảm biến và hộp điện tử</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Giúp tản nhiệt động cơ tốt hơn</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Phủ lớp nano bảo vệ gioăng cao su</li>
+                            </ul>
+                            <div class="service-footer">
+                                <span class="service-price">Từ 800.000đ</span>
+                                <a href="#booking" class="service-link">Đặt dịch vụ <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Service 6 -->
+                    <article class="service-card">
+                        <div class="service-img-wrap">
+                            <img src="assets/images/service-ppf.jpg" alt="Dán phim cách nhiệt và PPF" loading="lazy">
+                            <span class="service-badge">Được yêu thích</span>
+                        </div>
+                        <div class="service-body">
+                            <div class="service-icon"><i class="fa-solid fa-shield-virus"></i></div>
+                            <h3 class="service-name">Dán Phim PPF & Phim Cách Nhiệt</h3>
+                            <p class="service-info">Dán phim bảo vệ sơn PPF chống đá văng trầy xước và dán phim cách nhiệt ngăn 99% tia hồng ngoại, tia cực tím bảo vệ khoang lái.</p>
+                            <ul class="service-points">
+                                <li><i class="fa-solid fa-circle-check"></i> Phim TPU tự phục hồi vết xước khi gặp nhiệt</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Cách nhiệt chống nóng vượt trội</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Bảo hành bong tróc 5 - 10 năm</li>
+                            </ul>
+                            <div class="service-footer">
+                                <span class="service-price">Từ 4.000.000đ</span>
+                                <a href="#booking" class="service-link">Đặt dịch vụ <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. WORKFLOW / PROCESS SECTION -->
+        <section class="process-section" id="process">
+            <div class="container">
+                <div class="section-title-wrap text-center">
+                    <span class="section-subtitle">Quy trình chuẩn hóa</span>
+                    <h2 class="section-title">4 Bước Chăm Sóc Xe Chuyên Nghiệp</h2>
+                    <p class="section-desc">Mỗi chiếc xe khi đến với Chăm Sóc Xe đều trải qua quy trình nghiêm ngặt nhằm mang lại trải nghiệm hoàn hảo nhất.</p>
+                </div>
+
+                <div class="process-steps">
+                    <article class="step-card">
+                        <div class="step-number">01</div>
+                        <div class="step-icon"><i class="fa-solid fa-clipboard-check"></i></div>
+                        <h3 class="step-title">Tiếp Nhận & Khảo Sát</h3>
+                        <p class="step-desc">Kiểm tra toàn diện hiện trạng xe, đo độ dày lớp sơn và tình trạng nội thất cùng chủ xe.</p>
+                    </article>
+
+                    <article class="step-card">
+                        <div class="step-number">02</div>
+                        <div class="step-icon"><i class="fa-solid fa-comments-dollar"></i></div>
+                        <h3 class="step-title">Tư Vấn Gói Dịch Vụ</h3>
+                        <p class="step-desc">Đề xuất phương án tối ưu phù hợp với nhu cầu và ngân sách, báo giá minh bạch không phát sinh.</p>
+                    </article>
+
+                    <article class="step-card">
+                        <div class="step-number">03</div>
+                        <div class="step-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h3 class="step-title">Thực Hiện Chăm Sóc</h3>
+                        <p class="step-desc">Đội ngũ kỹ thuật viên tay nghề cao tiến hành thi công tỉ mỉ theo đúng tiêu chuẩn kỹ thuật nghiêm ngặt.</p>
+                    </article>
+
+                    <article class="step-card">
+                        <div class="step-number">04</div>
+                        <div class="step-icon"><i class="fa-solid fa-car-on"></i></div>
+                        <h3 class="step-title">Nghiệm Thu & Bàn Giao</h3>
+                        <p class="step-desc">Kiểm định chất lượng qua 20 tiêu chí QC, bàn giao xe sáng bóng và cấp phiếu bảo hành điện tử.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. PRICING PACKAGES SECTION -->
+        <section class="pricing-section" id="pricing">
+            <div class="container">
+                <div class="section-title-wrap text-center">
+                    <span class="section-subtitle">Bảng giá tham khảo</span>
+                    <h2 class="section-title">Gói Dịch Vụ Tiết Kiệm & Đa Dạng</h2>
+                    <p class="section-desc">Lựa chọn combo phù hợp nhất để chiếc xe của bạn luôn giữ được vẻ đẹp như mới xuất xưởng.</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <!-- Basic Tier -->
+                    <article class="pricing-card">
+                        <div class="pricing-header">
+                            <span class="pricing-badge">Tiêu chuẩn</span>
+                            <h3 class="pricing-title">Gói Chăm Sóc Cơ Bản</h3>
+                            <div class="pricing-cost">
+                                <span class="currency">VNĐ</span>
+                                <span class="amount">650.000</span>
+                                <span class="period">/ lần</span>
+                            </div>
+                            <p class="pricing-desc">Phù hợp duy trì làm sạch định kỳ hàng tháng cho xe cá nhân và gia đình.</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fa-solid fa-check"></i> Rửa xe 3 xô chuyên sâu không chạm</li>
+                            <li><i class="fa-solid fa-check"></i> Hút bụi & lau dọn nội thất cơ bản</li>
+                            <li><i class="fa-solid fa-check"></i> Làm sạch mâm lốp & quét dưỡng cao su</li>
+                            <li><i class="fa-solid fa-check"></i> Khử mùi nhanh bằng tinh dầu thiên nhiên</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> Vệ sinh khoang máy bằng hơi nước</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> Đánh bóng & hiệu chỉnh sơn xe</li>
+                        </ul>
+                        <a href="#booking" class="btn btn-outline btn-block">Chọn Gói Này</a>
+                    </article>
+
+                    <!-- Popular Tier -->
+                    <article class="pricing-card featured">
+                        <div class="popular-ribbon">BÁN CHẠY NHẤT</div>
+                        <div class="pricing-header">
+                            <span class="pricing-badge">Toàn diện</span>
+                            <h3 class="pricing-title">Gói Chuyên Sâu Pro</h3>
+                            <div class="pricing-cost">
+                                <span class="currency">VNĐ</span>
+                                <span class="amount">2.890.000</span>
+                                <span class="period">/ lần</span>
+                            </div>
+                            <p class="pricing-desc">Lựa chọn hoàn hảo để làm mới toàn diện nội ngoại thất sau thời gian dài sử dụng.</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fa-solid fa-check"></i> Toàn bộ dịch vụ của Gói Cơ Bản</li>
+                            <li><i class="fa-solid fa-check"></i> Vệ sinh khoang máy bằng hơi nước nóng</li>
+                            <li><i class="fa-solid fa-check"></i> Giặt ghế da/nỉ & khử khuẩn hơi nước 150°C</li>
+                            <li><i class="fa-solid fa-check"></i> Tẩy ố kính, ố la-zăng & nhựa đường</li>
+                            <li><i class="fa-solid fa-check"></i> Đánh bóng bước 1 xóa xước nhẹ</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> Phủ Ceramic 9H cao cấp</li>
+                        </ul>
+                        <a href="#booking" class="btn btn-primary btn-block">Chọn Gói Này</a>
+                    </article>
+
+                    <!-- VIP Tier -->
+                    <article class="pricing-card">
+                        <div class="pricing-header">
+                            <span class="pricing-badge">Đẳng cấp</span>
+                            <h3 class="pricing-title">Gói VIP Showroom Ceramic</h3>
+                            <div class="pricing-cost">
+                                <span class="currency">VNĐ</span>
+                                <span class="amount">6.900.000</span>
+                                <span class="period">/ trọn gói</span>
+                            </div>
+                            <p class="pricing-desc">Dành cho chủ xe muốn vẻ ngoài bóng gương đẳng cấp và sự bảo vệ tối thượng.</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fa-solid fa-check"></i> Toàn bộ dịch vụ của Gói Chuyên Sâu Pro</li>
+                            <li><i class="fa-solid fa-check"></i> Hiệu chỉnh sơn 3 bước xóa 95% xước xoáy</li>
+                            <li><i class="fa-solid fa-check"></i> Phủ 2 lớp Ceramic 9H độ bền 2 năm</li>
+                            <li><i class="fa-solid fa-check"></i> Phủ nano kính chắn gió kỵ nước mưa</li>
+                            <li><i class="fa-solid fa-check"></i> Bảo dưỡng da nội thất bằng kem dưỡng cao cấp</li>
+                            <li><i class="fa-solid fa-check"></i> Miễn phí 3 lần bảo dưỡng định kỳ</li>
+                        </ul>
+                        <a href="#booking" class="btn btn-outline btn-block">Chọn Gói Này</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. TESTIMONIALS SECTION -->
+        <section class="testimonials-section" id="testimonials">
+            <div class="container">
+                <div class="section-title-wrap text-center">
+                    <span class="section-subtitle">Ý kiến khách hàng</span>
+                    <h2 class="section-title">Khách Hàng Nói Gì Về Chăm Sóc Xe?</h2>
+                    <p class="section-desc">Sự hài lòng của khách hàng là thước đo chính xác nhất cho chất lượng dịch vụ của chúng tôi.</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <article class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Tôi mang chiếc Mercedes E300 đến phủ Ceramic và dọn nội thất. Nhận xe mà bất ngờ vì xe bóng bẩy như vừa lăn bánh từ showroom ra. Dịch vụ rất chu đáo và chuyên nghiệp!"</p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/user1.jpg" alt="Anh Trần Hoàng Quân" class="author-avatar" loading="lazy">
+                            <div class="author-details">
+                                <h4 class="author-name">Anh Trần Hoàng Quân</h4>
+                                <span class="author-title">Chủ xe Mercedes E300 - Biên Hòa</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Khoang máy xe mình bị chuột làm tổ và rất bẩn. Sau khi vệ sinh bằng hơi nước nóng thì sạch bong kin kít, mùi hôi biến mất hoàn toàn. Giá cả lại rất hợp lý so với mặt bằng chung."</p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/user2.jpg" alt="Anh Nguyễn Hữu Đức" class="author-avatar" loading="lazy">
+                            <div class="author-details">
+                                <h4 class="author-name">Anh Nguyễn Hữu Đức</h4>
+                                <span class="author-title">Chủ xe Mazda CX-5 - Đồng Nai</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Đội ngũ kỹ thuật viên cực kỳ tận tình, tư vấn đúng tình trạng xe chứ không vẽ vời thêm dịch vụ. Chắc chắn sẽ quay lại ủng hộ trung tâm thường xuyên."</p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/user3.jpg" alt="Chị Lê Thu Trang" class="author-avatar" loading="lazy">
+                            <div class="author-details">
+                                <h4 class="author-name">Chị Lê Thu Trang</h4>
+                                <span class="author-title">Chủ xe Honda CR-V - TP.HCM</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. BOOKING & CONTACT SECTION -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="contact-layout">
+                    <!-- Contact Information Column -->
+                    <div class="contact-info-col">
+                        <span class="section-subtitle">Kết nối với chúng tôi</span>
+                        <h2 class="section-title">Đặt Hẹn Ngay Hôm Nay Để Nhận Ưu Đãi 15%</h2>
+                        <p class="section-desc">Trung tâm mở cửa tất cả các ngày trong tuần. Hãy đặt lịch trước để được phục vụ nhanh chóng và chu đáo nhất.</p>
+
+                        <div class="info-items-list">
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="info-text">
+                                    <strong>Địa Chỉ Showroom:</strong>
+                                    <span>Số 10 Huỳnh Văn Nghệ, P. Bửu Long, TP. Biên Hòa, Đồng Nai</span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                <div class="info-text">
+                                    <strong>Hotline Hỗ Trợ 24/7:</strong>
+                                    <span><a href="tel:072010601">072010601</a></span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="info-text">
+                                    <strong>Email Liên Hệ:</strong>
+                                    <span><a href="mailto:nguyentanthuan224@gmail.com">nguyentanthuan224@gmail.com</a></span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+                                <div class="info-text">
+                                    <strong>Thời Gian Làm Việc:</strong>
+                                    <span>Thứ 2 - Chủ Nhật: 07:30 - 18:30 (Cả ngày lễ)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <span class="social-label">Theo dõi chúng tôi:</span>
+                            <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" class="social-btn" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                            <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Booking Form Column -->
+                    <div class="contact-form-col" id="booking">
+                        <form class="booking-form" id="bookingForm" action="#booking">
+                            <h3 class="form-title"><i class="fa-solid fa-calendar-check"></i> Form Đăng Ký Đặt Lịch</h3>
+                            <p class="form-desc">Vui lòng điền thông tin bên dưới để được ưu tiên khung giờ chăm sóc xe.</p>
+
+                            <div class="form-group">
+                                <label for="fullName"><i class="fa-regular fa-user"></i> Họ và tên của bạn *</label>
+                                <input type="text" id="fullName" class="form-control" placeholder="Ví dụ: Nguyễn Văn A" required>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phoneNumber"><i class="fa-solid fa-phone"></i> Số điện thoại *</label>
+                                    <input type="tel" id="phoneNumber" class="form-control" placeholder="Ví dụ: 0912 345 678" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="carModel"><i class="fa-solid fa-car"></i> Dòng xe & Biển số *</label>
+                                    <input type="text" id="carModel" class="form-control" placeholder="Ví dụ: Mazda 3 - 60A-123.45" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="serviceSelect"><i class="fa-solid fa-list-check"></i> Chọn dịch vụ chính *</label>
+                                    <select id="serviceSelect" class="form-control" required>
+                                        <option value="">-- Chọn dịch vụ chăm sóc --</option>
+                                        <option value="wash">Rửa Xe & Vệ Sinh Chi Tiết</option>
+                                        <option value="ceramic">Phủ Ceramic & Graphene 9H+</option>
+                                        <option value="polish">Đánh Bóng & Hiệu Chỉnh Sơn</option>
+                                        <option value="interior">Vệ Sinh Nội Thất Chuyên Sâu</option>
+                                        <option value="engine">Vệ Sinh Khoang Máy Hơi Nước</option>
+                                        <option value="ppf">Dán Phim Cách Nhiệt & PPF</option>
+                                        <option value="combo">Gói Combo VIP Toàn Diện</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="bookingDate"><i class="fa-regular fa-calendar-days"></i> Ngày hẹn *</label>
+                                    <input type="date" id="bookingDate" class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="noteMessage"><i class="fa-regular fa-message"></i> Ghi chú thêm yêu cầu đặc biệt</label>
+                                <textarea id="noteMessage" class="form-control" rows="3" placeholder="Ví dụ: Cần kiểm tra kỹ vết xước ở cửa sau, hẹn lúc 9h sáng..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block btn-submit">
+                                <i class="fa-solid fa-paper-plane"></i> GỬI YÊU CẦU ĐẶT LỊCH NGAY
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER (SEMANTIC HTML5) ==================== -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-grid">
+                <!-- Col 1: Brand -->
+                <div class="footer-col footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-icon"><i class="fa-solid fa-car-side"></i></span>
+                        <span class="logo-text">CHĂM SÓC <strong>XE</strong></span>
+                    </a>
+                    <p class="footer-bio">
+                        Hệ thống trung tâm chăm sóc ô tô và xe cộ công nghệ cao hàng đầu, bảo vệ giá trị và giữ gìn vẻ đẹp sang trọng cho mọi phương tiện.
+                    </p>
+                    <div class="footer-badges">
+                        <span class="cert-badge"><i class="fa-solid fa-award"></i> Chứng nhận ISO 9001</span>
+                        <span class="cert-badge"><i class="fa-solid fa-shield-check"></i> Bảo hành điện tử</span>
+                    </div>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div class="footer-col">
+                    <h4 class="footer-title">Về Chúng Tôi</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fa-solid fa-angle-right"></i> Trang chủ</a></li>
+                        <li><a href="#about"><i class="fa-solid fa-angle-right"></i> Giới thiệu trung tâm</a></li>
+                        <li><a href="#services"><i class="fa-solid fa-angle-right"></i> Dịch vụ tiêu biểu</a></li>
+                        <li><a href="#process"><i class="fa-solid fa-angle-right"></i> Quy trình 4 bước</a></li>
+                        <li><a href="#pricing"><i class="fa-solid fa-angle-right"></i> Bảng giá chi tiết</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Services -->
+                <div class="footer-col">
+                    <h4 class="footer-title">Dịch Vụ Nổi Bật</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services"><i class="fa-solid fa-angle-right"></i> Phủ bóng Ceramic 9H+</a></li>
+                        <li><a href="#services"><i class="fa-solid fa-angle-right"></i> Hiệu chỉnh bề mặt sơn</a></li>
+                        <li><a href="#services"><i class="fa-solid fa-angle-right"></i> Dọn nội thất & diệt khuẩn</a></li>
+                        <li><a href="#services"><i class="fa-solid fa-angle-right"></i> Rửa khoang máy hơi nước</a></li>
+                        <li><a href="#services"><i class="fa-solid fa-angle-right"></i> Dán phim PPF chống xước</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Newsletter -->
+                <div class="footer-col">
+                    <h4 class="footer-title">Bản Tin Khuyến Mãi</h4>
+                    <p class="footer-bio">Đăng ký để nhận voucher giảm giá 20% cho lần chăm sóc xe đầu tiên.</p>
+                    <form class="newsletter-form" action="#booking">
+                        <div class="newsletter-input-wrap">
+                            <input type="email" placeholder="Nhập email của bạn..." required class="newsletter-input">
+                            <button type="submit" class="newsletter-btn" aria-label="Đăng ký"><i class="fa-solid fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; 2026 <strong>Chăm Sóc Xe</strong>. Đồ án kiểm tra môn Thiết Kế Web - Trường Đại học Lạc Hồng. Mọi quyền được bảo lưu.
+                </p>
+                <div class="footer-bottom-links">
+                    <a href="#home">Chính sách bảo mật</a>
+                    <span>•</span>
+                    <a href="#home">Điều khoản sử dụng</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#home" class="back-to-top" id="backToTop" aria-label="Cuộn lên đầu trang">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- ==================== JAVASCRIPT: TÍNH NĂNG SCROLLSPY (SÁNG MENU KHI LĂN CHUỘT) ==================== -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.navbar .nav-link');
+            const header = document.getElementById('header');
+
+            function updateScrollspy() {
+                const scrollY = window.pageYOffset || document.documentElement.scrollTop;
+                const headerHeight = header ? header.offsetHeight : 80;
+
+                let currentId = '';
+
+                // Duyệt qua từng section để xác định section hiện tại
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - headerHeight - 140;
+                    const sectionHeight = section.offsetHeight;
+                    if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+                        currentId = section.getAttribute('id');
+                    }
+                });
+
+                // Nếu cuộn gần chạm đáy trang, luôn kích hoạt mục cuối cùng (Liên hệ)
+                if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 60) {
+                    currentId = 'contact';
+                }
+
+                // Cập nhật class active cho menu link
+                if (currentId) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + currentId) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            }
+
+            // Lắng nghe sự kiện lăn chuột để đổi trạng thái menu
+            window.addEventListener('scroll', updateScrollspy);
+            // Kích hoạt ngay khi tải trang
+            updateScrollspy();
+
+            // Khi click vào link, đổi ngay trạng thái active
+            navLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    navLinks.forEach(item => item.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
+
